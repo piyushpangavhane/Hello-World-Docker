@@ -16,3 +16,5 @@ phases:
       - echo "Tagging Docker image..."
       - docker tag myapp:latest 545758899836.dkr.ecr.us-east-2.amazonaws.com/myapp:latest
       - docker push 545758899836.dkr.ecr.us-east-2.amazonaws.com/myapp:latest
+artifacts:
+  files: imagedefinitions.json
